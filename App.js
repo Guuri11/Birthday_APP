@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
     {/* edit devide top bar */}
-    <StatusBar barStyle="light-content"/>
+    <StatusBar backgroundColor={styles.background.backgroundColor} />
     <SafeAreaView style={styles.background} >
       {user ? <Text>Estás logueado</Text> : <Auth/>}
     </SafeAreaView>
