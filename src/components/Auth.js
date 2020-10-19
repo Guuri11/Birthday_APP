@@ -16,7 +16,7 @@ export default function Auth() {
         <View style={styles.view} >
             <Image style={styles.logo} source={require("../assets/logo.png")}/>
             {
-                !isLogin ?
+                isLogin ?
                     <LoginForm changeForm={changeForm} />
                     :
                     <RegisterForm changeForm={changeForm}/>
