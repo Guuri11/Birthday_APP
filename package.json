@@ -10,9 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/datetimepicker": "^3.0.4",
+    "base-64": "^1.0.0",
     "firebase": "^7.23.0",
+    "moment": "^2.29.1",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-modal-datetime-picker": "^9.0.0",
     "tsutils": "^3.17.1",
     "typescript": "^4.0.3"
   },
